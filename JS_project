@@ -26,8 +26,6 @@ function mintNFT(name, description, rarity) {
 }
 
 
-}
-
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
 function listNFTs () {
@@ -52,4 +50,3 @@ mintNFT("Jack", "Hey this is jack", "Rare name");
 mintNFT("James", "Hey this is james", "Epic name");
 listNFTs();
 console.log("Total NFTs minted: " + getTotalSupply());
-
